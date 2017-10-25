@@ -4,6 +4,44 @@ style.css
 	padding:0;
 	width:960px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li a {
+	float: right;
+    display: block;
+    text-align: center;
+    color:gray;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#name {
+	position:relative;
+	left:59px;
+	top:45px;
+	width:200px;
+	font-size:25px;
+	font-family: "Georgia","Times", "Times New Roman",serif;
+	margin-top:20px;
+	margin-bottom:0px;
+	margin-right:33%;
+	color:white;
+	background-color: #4aaaa5;
+	display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
 
 p {
 	font-size:15px;
@@ -27,19 +65,16 @@ hr {
    line-height: 0;
    clear: both;
 }
-#name {
-	width:200px;
-	font-size:25px;
-	font-family: "Georgia","Times", "Times New Roman",serif;
-	margin-bottom:0px;
-	margin-right:33%;
-	color:white;
-	background-color: #4aaaa5;
+
 }
-/*#mainBio{
-	length:10px;
-}
-*/
+
+
+
+
+
+
+
+
 .links {
 	display:block;
 	position:relative;
@@ -73,6 +108,14 @@ hr {
     margin-left: 60px;
 
 }
+aside {
+	max-width: 270px;
+	background-color: white;
+
+	
+	
+}
+
 .footer{
 	background-color:gray;
 	postion:absolute;
@@ -81,6 +124,9 @@ hr {
 	padding:20px;
 	text-align: center;
 	color:white;
+}
+#stripe {
+	background-color:#4aaaa5;
 }
 
 /*
