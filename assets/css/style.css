@@ -42,6 +42,24 @@ li a {
     text-decoration: none;
 
 }
+.sidebar {
+	position:relative;
+	float:right;
+	width:200px;
+	margin-left:30px;
+
+}
+.icon {
+	position:relative;
+	width:30px;
+	height:30px;
+
+}
+h3 {
+	padding-bottom:20px;
+	color: #4aaaa5;
+	font-weight:bold;
+}
 
 p {
 	font-size:15px;
@@ -66,14 +84,6 @@ hr {
    clear: both;
 }
 
-}
-
-
-
-
-
-
-
 
 .links {
 	display:block;
@@ -96,12 +106,14 @@ hr {
 	font-family: "Georgia","Times", "Times New Roman",serif;
 	font-size:25px;
 	margin:0px 81px;
+	padding-top:40px;
 }
 .bioImage {
 	position:relative;
 	float:left;
-	width: 150px;
-    length: 100px;
+	width: 300px;
+    length: 200px;
+    height:200px;
     border: 1px solid #fff;
     background-color: #fff;
     padding: 20px;
@@ -111,11 +123,10 @@ hr {
 aside {
 	max-width: 270px;
 	background-color: white;
-
-	
-	
 }
-
+form {
+	margin-left:70px;
+}
 .footer{
 	background-color:gray;
 	postion:absolute;
@@ -128,6 +139,7 @@ aside {
 #stripe {
 	background-color:#4aaaa5;
 }
+
 
 /*
 .container{
