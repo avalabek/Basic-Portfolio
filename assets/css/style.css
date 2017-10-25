@@ -3,8 +3,8 @@ style.css
 	margin:0px;
 	padding:0;
 	width:960px;
-
 }
+
 p {
 	font-size:15px;
 	font-family:"Arial", "Helvetica Neue","Helvetica",sans-serif;
@@ -28,6 +28,7 @@ hr {
    clear: both;
 }
 #name {
+	width:200px;
 	font-size:25px;
 	font-family: "Georgia","Times", "Times New Roman",serif;
 	margin-bottom:0px;
@@ -71,6 +72,15 @@ hr {
     padding: 20px;
     margin-left: 60px;
 
+}
+.footer{
+	background-color:gray;
+	postion:absolute;
+	left:0; right:0; bottom:0;
+	height:20px;
+	padding:20px;
+	text-align: center;
+	color:white;
 }
 
 /*
