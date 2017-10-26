@@ -42,6 +42,7 @@ li a {
     text-decoration: none;
 
 }
+/*sidebar------------------------------*/
 .sidebar {
 	position:relative;
 	float:right;
@@ -105,6 +106,7 @@ hr {
 	color:#4aaaa5;
 	font-family: "Georgia","Times", "Times New Roman",serif;
 	font-size:25px;
+	font-weight:bold;
 	margin:0px 81px;
 	padding-top:40px;
 }
@@ -120,13 +122,85 @@ hr {
     margin-left: 60px;
 
 }
+/*sidebar, something to do with alignment-------------------*/
 aside {
 	max-width: 270px;
 	background-color: white;
 }
+/*css for contact page------------------------------------*/
 form {
-	margin-left:70px;
+	margin-left:80px;
+	padding:20px 0px;
+	font-size:15px;
+	font-family:"Arial", "Helvetica Neue","Helvetica",sans-serif;
 }
+
+textarea {
+	margin-left:0px;
+	padding:20px 0px;
+}
+input.submit{
+	background-color: #4aaaa5;
+	color:white; 
+}
+
+/*portfolio page css---------------------------*/
+#hangman {
+    width: 200px;
+    height: 150px;
+    border: 1px solid green;
+    float: left;
+    margin: 55px;
+}
+#rpg {
+    width: 200px;
+    height: 150px;
+    margin:55px;
+    border: 1px solid red;
+    float: left;
+    margin-right: 200px;
+    margin-left:10px;
+}
+
+#trivia {
+	clear:both;
+    width: 200px;
+    height: 150px;
+    border: 1px solid green;
+    float: left;
+    margin: 55px;
+    position:relative;
+    top:4px;
+}
+#rutgers {
+    width: 200px;
+    height: 150px;
+    margin:55px;
+    border: 1px solid red;
+    float: left;
+    margin-right: 200px;
+    margin-left:10px;
+
+}
+.tiles{
+	position:relative;
+	float:left;
+	width: 200px;
+    length: 70px;
+    height:150px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 1px;
+    margin-left: 10px;
+
+}
+#inner-box{
+	background-color:#4aaaa5;
+	position:relative;
+	height: 20px;
+	length: 200px;
+}
+/*footer page-------------------------------*/
 .footer{
 	background-color:gray;
 	postion:absolute;
@@ -135,13 +209,14 @@ form {
 	padding:20px;
 	text-align: center;
 	color:white;
+	clear:both;
 }
 #stripe {
 	background-color:#4aaaa5;
 }
 
 
-/*
+/* misc stuff to probably delete
 .container{
 	clear:both;
 	margin-bottom:1px;
