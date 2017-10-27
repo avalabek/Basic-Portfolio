@@ -208,8 +208,15 @@ input.submit{
 	padding:15px;
 	margin-left:60px;
 }
-#rightTile {
-	margin-left:5px;
+
+#rightTile #rightTileTwo {
+	position:relative;
+	float:right;
+	box-sizing: border-box;
+	width:270px;
+	padding:15px;
+	margin-right:10px;
+	
 }
 /*banners over images----------------*/
 .banner {
@@ -232,13 +239,13 @@ input.submit{
   margin-left:65px;
   position:absolute;
   top:340px;
-  left:399.5px;	
+  left:454.5px;	
 }
 #rutgers{
   margin-left:65px;
   position:absolute;
   top:490px;
-  left:399.5px;	
+  left:454.5px;	
 }
 #trivia{
   margin-left:120px;
