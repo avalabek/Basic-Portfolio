@@ -262,6 +262,8 @@ input.submit{
 	padding:20px;
 	text-align: center;
 	color:#ffffff;
+	font-size:8px;
+	font-family:"Arial", "Helvetica Neue","Helvetica",sans-serif;;
 	clear:both;
 	border-top:5px solid #4aaaa5;
 }
