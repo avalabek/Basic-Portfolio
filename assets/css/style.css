@@ -209,9 +209,13 @@ input.submit{
 	margin-left:60px;
 }
 
-#rightTile #rightTileTwo {
+#rightTile, #rightTileTwo {
+	
 	position:relative;
 	float:right;
+	bottom: 455px;
+	right:30px;
+
 	box-sizing: border-box;
 	width:270px;
 	padding:15px;
@@ -236,13 +240,13 @@ input.submit{
   left:66px;	
 }
 #rpg{
-  margin-left:65px;
+  margin-left:10px;
   position:absolute;
   top:340px;
   left:454.5px;	
 }
 #rutgers{
-  margin-left:65px;
+  margin-left:10px;
   position:absolute;
   top:490px;
   left:454.5px;	
